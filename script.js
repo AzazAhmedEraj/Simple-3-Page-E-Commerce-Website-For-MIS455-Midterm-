@@ -5,7 +5,7 @@ function showOffer() {
 }
 
 function buyNow() {
-    alert("Thanks for shopping with Shop455!");
+    alert("Thanks For Shopping with Shop455!");
 }
 
 function showEmail() {
