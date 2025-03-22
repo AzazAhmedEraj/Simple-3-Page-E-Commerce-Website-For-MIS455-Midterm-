@@ -90,3 +90,74 @@ body {
     transform: scale(1.05);
  }
  
+ .product-box img {
+    width: 100%;
+    max-height: 130px;
+    object-fit: cover;
+    border-radius: 15px;
+ }
+ 
+ 
+ 
+ 
+ .product-box h3 {
+    margin-top: 10px;
+    font-size: 18px;
+ }
+ 
+ 
+ .product-box p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f14176;
+ }
+ 
+ 
+ button {
+    background: #ff4081;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+ }
+ 
+ 
+ button:hover {
+    background: #d72b60;
+ }
+ 
+ 
+ footer {
+    text-align: center;
+    background: #f14176;
+    padding: 15px;
+    color: white;
+ }
+ 
+ 
+ 
+ 
+ 
+ @media (max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+ }
+ 
+ 
+ @media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+ }
+ 
+ 
+ @media (max-width: 500px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+ }
+ 
